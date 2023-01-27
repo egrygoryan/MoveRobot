@@ -3,8 +3,8 @@ namespace MoveRobot.Constants;
 
 public enum Direction
 {
-    North,
-    East,
-    South,
-    West
+    North = 1 << 0,
+    East = 1 << 1,
+    South = 1 << 2,
+    West = 1 << 3
 }

@@ -3,6 +3,6 @@ namespace MoveRobot.Constants;
 
 public enum Rotation
 {
-    Right,
-    Left
+    Right = 1 << 0,
+    Left = 1 << 1,
 }
